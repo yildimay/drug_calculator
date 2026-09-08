@@ -1,0 +1,60 @@
+
+======================================================================
+DFT METHOD RECOMMENDER
+======================================================================
+
+[1/3] Parsing SMILES string...
+      SMILES: CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CCC(O)CC(O)CC(=O)O
+      IUPAC Name: 7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid (via PubChem)
+✓ SMILES parsed successfully
+  Molecular Weight: 558.65 g/mol
+  Total Atoms: 76
+  Heavy Atoms: 41
+  Formal Charge: 0
+  Spin Multiplicity: 1
+
+[2/3] Screening drug-likeness...
+
+======================================================================
+DRUG-LIKENESS SCREENING (not a full ADMET/toxicity prediction)
+======================================================================
+Molecular Formula:    C33H35FN2O5
+Molecular Weight:     558.65 Da
+LogP:                 6.31
+H-Bond Donors:        4
+H-Bond Acceptors:     4
+TPSA:                 111.79 Å²
+Rotatable Bonds:      12
+
+Lipinski's Rule of Five: FAIL
+  - Molecular weight 558.7 Da > 500 Da
+  - LogP 6.31 > 5
+
+Veber's Rule (oral bioavailability): FAIL
+  - Rotatable bonds 12 > 10
+
+Suggestions:
+  - Lipinski Rule of Five: more than one violation present (Molecular weight 558.7 Da > 500 Da, LogP 6.31 > 5) - oral absorption/permeability may be reduced. Consider reducing molecular weight and/or lipophilicity, or adding polar groups, if oral bioavailability is a design goal. (A single violation alone is common among approved oral drugs and isn't a strong signal on its own.)
+  - Veber's rule violated (Rotatable bonds 12 > 10) - high polar surface area and/or many rotatable bonds correlate with poor oral bioavailability in rat models. Consider reducing flexible-chain length or polar surface area if oral dosing is the goal.
+======================================================================
+
+[3/3] Determining recommended DFT method...
+
+======================================================================
+DFT CALCULATION PARAMETERS
+======================================================================
+Functional:           wB97XD
+Basis Set:            6-31+G(d,p)
+Dispersion:           Explicit dispersion (D parametrization)
+ECP Used:             False
+Diffuse Functions:    True
+
+Hardware Resources:
+  Processors:         8
+  Memory/Processor:   4.0 GB
+  Total Memory:       32.0 GB
+
+Rationale:
+  Functional 'wB97XD' selected: Aromatic rings detected. This range-separated hybrid functional includes dispersion for pi-systems. Basis set '6-31+G(d,p)' selected: 8 electronegative atoms (O/N/F/Cl) suggest a polarizable, lone-pair-rich system. Diffuse functions added to properly describe the electron density in these cases.
+======================================================================
+

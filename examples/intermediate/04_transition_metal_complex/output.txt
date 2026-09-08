@@ -1,0 +1,55 @@
+
+======================================================================
+DFT METHOD RECOMMENDER
+======================================================================
+
+[1/3] Parsing SMILES string...
+      SMILES: C1CC2(C1)C(=O)O[Pt](N)(N)OC2=O
+[19:42:53] UFFTYPER: Unrecognized hybridization for atom: 7
+[19:42:53] UFFTYPER: Unrecognized atom type: Pt+2 (7)
+      IUPAC Name: azanide;cyclobutane-1,1-dicarboxylic acid;platinum(2+) (via PubChem)
+✓ SMILES parsed successfully
+  Molecular Weight: 369.23 g/mol
+  Total Atoms: 23
+  Heavy Atoms: 13
+  Formal Charge: 0
+  Spin Multiplicity: 1
+
+[2/3] Screening drug-likeness...
+
+======================================================================
+DRUG-LIKENESS SCREENING (not a full ADMET/toxicity prediction)
+======================================================================
+Molecular Formula:    C6H10N2O4Pt
+Molecular Weight:     369.23 Da
+LogP:                 -1.01
+H-Bond Donors:        2
+H-Bond Acceptors:     6
+TPSA:                 104.64 Å²
+Rotatable Bonds:      0
+
+Lipinski's Rule of Five: PASS
+
+Veber's Rule (oral bioavailability): PASS
+======================================================================
+
+[3/3] Determining recommended DFT method...
+
+======================================================================
+DFT CALCULATION PARAMETERS
+======================================================================
+Functional:           TPSSh
+Basis Set:            LANL2DZ
+Dispersion:           Built-in dispersion (meta-GGA+HF)
+ECP Used:             True
+Diffuse Functions:    False
+
+Hardware Resources:
+  Processors:         4
+  Memory/Processor:   2.5 GB
+  Total Memory:       10.0 GB
+
+Rationale:
+  Functional 'TPSSh' selected: Transition metals detected. This meta-GGA hybrid functional is excellent for metal complexes. Basis set 'LANL2DZ' selected: Heavy elements (Period 4+) detected. Effective core potential basis is necessary for computational efficiency.
+======================================================================
+

@@ -1,0 +1,61 @@
+
+======================================================================
+DFT METHOD RECOMMENDER
+======================================================================
+
+[1/3] Parsing SMILES string...
+      SMILES: CCC1NC(=O)C(C(O)C(C)CC=CC)N(C)C(=O)C(C(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(C)NC(=O)C(C)NC(=O)C(CC(C)C)N(C)C(=O)C(NC(=O)C(CC(C)C)N(C)C(=O)C(C)NC1=O)C(C)C
+✓ SMILES parsed successfully
+  Molecular Weight: 1202.64 g/mol
+  Total Atoms: 196
+  Heavy Atoms: 85
+  Formal Charge: 0
+  Spin Multiplicity: 1
+
+[2/3] Screening drug-likeness...
+
+======================================================================
+DRUG-LIKENESS SCREENING (not a full ADMET/toxicity prediction)
+======================================================================
+Molecular Formula:    C62H111N11O12
+Molecular Weight:     1202.63 Da
+LogP:                 3.32
+H-Bond Donors:        6
+H-Bond Acceptors:     12
+TPSA:                 287.59 Å²
+Rotatable Bonds:      15
+
+Lipinski's Rule of Five: FAIL
+  - Molecular weight 1202.6 Da > 500 Da
+  - H-bond donors 6 > 5
+  - H-bond acceptors 12 > 10
+
+Veber's Rule (oral bioavailability): FAIL
+  - TPSA 287.6 Å² > 140 Å²
+  - Rotatable bonds 15 > 10
+
+Suggestions:
+  - Lipinski Rule of Five: more than one violation present (Molecular weight 1202.6 Da > 500 Da, H-bond donors 6 > 5, H-bond acceptors 12 > 10) - oral absorption/permeability may be reduced. Consider reducing molecular weight and/or lipophilicity, or adding polar groups, if oral bioavailability is a design goal. (A single violation alone is common among approved oral drugs and isn't a strong signal on its own.)
+  - Veber's rule violated (TPSA 287.6 Å² > 140 Å², Rotatable bonds 15 > 10) - high polar surface area and/or many rotatable bonds correlate with poor oral bioavailability in rat models. Consider reducing flexible-chain length or polar surface area if oral dosing is the goal.
+======================================================================
+
+[3/3] Determining recommended DFT method...
+
+======================================================================
+DFT CALCULATION PARAMETERS
+======================================================================
+Functional:           PBE0
+Basis Set:            6-31+G(d,p)
+Dispersion:           No explicit dispersion - may need manual D3 correction for accuracy
+ECP Used:             False
+Diffuse Functions:    True
+
+Hardware Resources:
+  Processors:         16
+  Memory/Processor:   6.0 GB
+  Total Memory:       96.0 GB
+
+Rationale:
+  Functional 'PBE0' selected: Large system (85 heavy atoms). This hybrid functional provides better computational scaling for large molecules. Basis set '6-31+G(d,p)' selected: 23 electronegative atoms (O/N/F/Cl) suggest a polarizable, lone-pair-rich system. Diffuse functions added to properly describe the electron density in these cases.
+======================================================================
+

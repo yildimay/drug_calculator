@@ -1,0 +1,597 @@
+{
+  "acetate_anion": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": -1.24,
+      "molecular_formula": "C2H3O2-",
+      "molecular_weight": 59.04,
+      "num_h_acceptors": 2,
+      "num_h_donors": 0,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 0,
+      "num_veber_violations": 0,
+      "tpsa": 40.13,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit D3 correction required",
+      "ecp_used": false,
+      "functional": "B3LYP-D3",
+      "mem_per_proc": 2.0,
+      "nprocshared": 2,
+      "total_mem": 4.0
+    },
+    "molecule": {
+      "formal_charge": -1,
+      "has_aromatic_rings": false,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 59.04,
+      "num_atoms_total": 7,
+      "num_heavy_atoms": 4,
+      "spin_multiplicity": 1
+    }
+  },
+  "aspirin": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": 1.31,
+      "molecular_formula": "C9H8O4",
+      "molecular_weight": 180.16,
+      "num_h_acceptors": 3,
+      "num_h_donors": 1,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 2,
+      "num_veber_violations": 0,
+      "tpsa": 63.6,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": false,
+      "functional": "wB97XD",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 180.16,
+      "num_atoms_total": 21,
+      "num_heavy_atoms": 13,
+      "spin_multiplicity": 1
+    }
+  },
+  "atorvastatin": {
+    "admet": {
+      "lipinski_pass": false,
+      "logp": 6.31,
+      "molecular_formula": "C33H35FN2O5",
+      "molecular_weight": 558.65,
+      "num_h_acceptors": 4,
+      "num_h_donors": 4,
+      "num_lipinski_violations": 2,
+      "num_rotatable_bonds": 12,
+      "num_veber_violations": 1,
+      "tpsa": 111.79,
+      "veber_pass": false
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": false,
+      "functional": "wB97XD",
+      "mem_per_proc": 4.0,
+      "nprocshared": 8,
+      "total_mem": 32.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 558.65,
+      "num_atoms_total": 76,
+      "num_heavy_atoms": 41,
+      "spin_multiplicity": 1
+    }
+  },
+  "caffeine": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": -1.03,
+      "molecular_formula": "C8H10N4O2",
+      "molecular_weight": 194.19,
+      "num_h_acceptors": 3,
+      "num_h_donors": 0,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 0,
+      "num_veber_violations": 0,
+      "tpsa": 61.82,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": false,
+      "functional": "wB97XD",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 194.19,
+      "num_atoms_total": 24,
+      "num_heavy_atoms": 14,
+      "spin_multiplicity": 1
+    }
+  },
+  "carboplatin": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": -1.01,
+      "molecular_formula": "C6H10N2O4Pt",
+      "molecular_weight": 369.23,
+      "num_h_acceptors": 6,
+      "num_h_donors": 2,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 0,
+      "num_veber_violations": 0,
+      "tpsa": 104.64,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "LANL2DZ",
+      "diffuse_functions": false,
+      "dispersion_correction": "Built-in dispersion (meta-GGA+HF)",
+      "ecp_used": true,
+      "functional": "TPSSh",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": false,
+      "has_heavy_elements": true,
+      "has_transition_metals": true,
+      "molecular_weight": 369.23,
+      "num_atoms_total": 23,
+      "num_heavy_atoms": 13,
+      "spin_multiplicity": 1
+    }
+  },
+  "cisplatin_bonded": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": 0.2,
+      "molecular_formula": "H4Cl2N2Pt",
+      "molecular_weight": 298.03,
+      "num_h_acceptors": 2,
+      "num_h_donors": 2,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 0,
+      "num_veber_violations": 0,
+      "tpsa": 52.04,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "LANL2DZ",
+      "diffuse_functions": false,
+      "dispersion_correction": "Built-in dispersion (meta-GGA+HF)",
+      "ecp_used": true,
+      "functional": "TPSSh",
+      "mem_per_proc": 2.0,
+      "nprocshared": 2,
+      "total_mem": 4.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": false,
+      "has_heavy_elements": true,
+      "has_transition_metals": true,
+      "molecular_weight": 298.03,
+      "num_atoms_total": 9,
+      "num_heavy_atoms": 5,
+      "spin_multiplicity": 1
+    }
+  },
+  "cyclosporine_like": {
+    "admet": {
+      "lipinski_pass": false,
+      "logp": 3.32,
+      "molecular_formula": "C62H111N11O12",
+      "molecular_weight": 1202.63,
+      "num_h_acceptors": 12,
+      "num_h_donors": 6,
+      "num_lipinski_violations": 3,
+      "num_rotatable_bonds": 15,
+      "num_veber_violations": 2,
+      "tpsa": 287.59,
+      "veber_pass": false
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "No explicit dispersion - may need manual D3 correction for accuracy",
+      "ecp_used": false,
+      "functional": "PBE0",
+      "mem_per_proc": 6.0,
+      "nprocshared": 16,
+      "total_mem": 96.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": false,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 1202.64,
+      "num_atoms_total": 196,
+      "num_heavy_atoms": 85,
+      "spin_multiplicity": 1
+    }
+  },
+  "glycine_zwitterion": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": -3.02,
+      "molecular_formula": "C2H5NO2",
+      "molecular_weight": 75.07,
+      "num_h_acceptors": 2,
+      "num_h_donors": 1,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 1,
+      "num_veber_violations": 0,
+      "tpsa": 67.77,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit D3 correction required",
+      "ecp_used": false,
+      "functional": "B3LYP-D3",
+      "mem_per_proc": 2.0,
+      "nprocshared": 2,
+      "total_mem": 4.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": false,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 75.07,
+      "num_atoms_total": 10,
+      "num_heavy_atoms": 5,
+      "spin_multiplicity": 1
+    }
+  },
+  "ibuprofen": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": 3.07,
+      "molecular_formula": "C13H18O2",
+      "molecular_weight": 206.28,
+      "num_h_acceptors": 1,
+      "num_h_donors": 1,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 4,
+      "num_veber_violations": 0,
+      "tpsa": 37.3,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-311G(d,p)",
+      "diffuse_functions": false,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": false,
+      "functional": "wB97XD",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 206.29,
+      "num_atoms_total": 33,
+      "num_heavy_atoms": 15,
+      "spin_multiplicity": 1
+    }
+  },
+  "imatinib": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": 4.59,
+      "molecular_formula": "C29H31N7O",
+      "molecular_weight": 493.62,
+      "num_h_acceptors": 7,
+      "num_h_donors": 2,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 7,
+      "num_veber_violations": 0,
+      "tpsa": 86.28,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": false,
+      "functional": "wB97XD",
+      "mem_per_proc": 4.0,
+      "nprocshared": 8,
+      "total_mem": 32.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 493.61,
+      "num_atoms_total": 68,
+      "num_heavy_atoms": 37,
+      "spin_multiplicity": 1
+    }
+  },
+  "levothyroxine": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": 4.56,
+      "molecular_formula": "C15H11I4NO4",
+      "molecular_weight": 776.87,
+      "num_h_acceptors": 4,
+      "num_h_donors": 3,
+      "num_lipinski_violations": 1,
+      "num_rotatable_bonds": 5,
+      "num_veber_violations": 0,
+      "tpsa": 92.78,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "LANL2DZ",
+      "diffuse_functions": false,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": true,
+      "functional": "wB97XD",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": true,
+      "has_transition_metals": false,
+      "molecular_weight": 776.87,
+      "num_atoms_total": 35,
+      "num_heavy_atoms": 24,
+      "spin_multiplicity": 1
+    }
+  },
+  "metformin": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": -1.03,
+      "molecular_formula": "C4H11N5",
+      "molecular_weight": 129.17,
+      "num_h_acceptors": 2,
+      "num_h_donors": 4,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 0,
+      "num_veber_violations": 0,
+      "tpsa": 88.99,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit D3 correction required",
+      "ecp_used": false,
+      "functional": "B3LYP-D3",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": false,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 129.17,
+      "num_atoms_total": 20,
+      "num_heavy_atoms": 9,
+      "spin_multiplicity": 1
+    }
+  },
+  "paclitaxel": {
+    "admet": {
+      "lipinski_pass": false,
+      "logp": 3.74,
+      "molecular_formula": "C47H51NO14",
+      "molecular_weight": 853.92,
+      "num_h_acceptors": 14,
+      "num_h_donors": 4,
+      "num_lipinski_violations": 2,
+      "num_rotatable_bonds": 10,
+      "num_veber_violations": 1,
+      "tpsa": 221.29,
+      "veber_pass": false
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": false,
+      "functional": "wB97XD",
+      "mem_per_proc": 6.0,
+      "nprocshared": 16,
+      "total_mem": 96.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 853.92,
+      "num_atoms_total": 113,
+      "num_heavy_atoms": 62,
+      "spin_multiplicity": 1
+    }
+  },
+  "paracetamol": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": 1.35,
+      "molecular_formula": "C8H9NO2",
+      "molecular_weight": 151.16,
+      "num_h_acceptors": 2,
+      "num_h_donors": 2,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 1,
+      "num_veber_violations": 0,
+      "tpsa": 49.33,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": false,
+      "functional": "wB97XD",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 151.17,
+      "num_atoms_total": 20,
+      "num_heavy_atoms": 11,
+      "spin_multiplicity": 1
+    }
+  },
+  "penicillin_g": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": 0.86,
+      "molecular_formula": "C16H18N2O4S",
+      "molecular_weight": 334.4,
+      "num_h_acceptors": 4,
+      "num_h_donors": 2,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 4,
+      "num_veber_violations": 0,
+      "tpsa": 86.71,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": false,
+      "functional": "wB97XD",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 334.4,
+      "num_atoms_total": 41,
+      "num_heavy_atoms": 23,
+      "spin_multiplicity": 1
+    }
+  },
+  "testosterone": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": 3.88,
+      "molecular_formula": "C19H28O2",
+      "molecular_weight": 288.43,
+      "num_h_acceptors": 2,
+      "num_h_donors": 1,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 0,
+      "num_veber_violations": 0,
+      "tpsa": 37.3,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31G(d)",
+      "diffuse_functions": false,
+      "dispersion_correction": "Explicit D3 correction required",
+      "ecp_used": false,
+      "functional": "B3LYP-D3",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": false,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 288.43,
+      "num_atoms_total": 49,
+      "num_heavy_atoms": 21,
+      "spin_multiplicity": 1
+    }
+  },
+  "warfarin": {
+    "admet": {
+      "lipinski_pass": true,
+      "logp": 3.61,
+      "molecular_formula": "C19H16O4",
+      "molecular_weight": 308.33,
+      "num_h_acceptors": 4,
+      "num_h_donors": 1,
+      "num_lipinski_violations": 0,
+      "num_rotatable_bonds": 4,
+      "num_veber_violations": 0,
+      "tpsa": 67.51,
+      "veber_pass": true
+    },
+    "dft": {
+      "basis_set": "6-31+G(d,p)",
+      "diffuse_functions": true,
+      "dispersion_correction": "Explicit dispersion (D parametrization)",
+      "ecp_used": false,
+      "functional": "wB97XD",
+      "mem_per_proc": 2.5,
+      "nprocshared": 4,
+      "total_mem": 10.0
+    },
+    "molecule": {
+      "formal_charge": 0,
+      "has_aromatic_rings": true,
+      "has_heavy_elements": false,
+      "has_transition_metals": false,
+      "molecular_weight": 308.33,
+      "num_atoms_total": 39,
+      "num_heavy_atoms": 23,
+      "spin_multiplicity": 1
+    }
+  }
+}

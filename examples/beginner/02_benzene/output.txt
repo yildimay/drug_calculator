@@ -1,0 +1,53 @@
+
+======================================================================
+DFT METHOD RECOMMENDER
+======================================================================
+
+[1/3] Parsing SMILES string...
+      SMILES: c1ccccc1
+      IUPAC Name: benzene (via PubChem)
+✓ SMILES parsed successfully
+  Molecular Weight: 78.11 g/mol
+  Total Atoms: 12
+  Heavy Atoms: 6
+  Formal Charge: 0
+  Spin Multiplicity: 1
+
+[2/3] Screening drug-likeness...
+
+======================================================================
+DRUG-LIKENESS SCREENING (not a full ADMET/toxicity prediction)
+======================================================================
+Molecular Formula:    C6H6
+Molecular Weight:     78.11 Da
+LogP:                 1.69
+H-Bond Donors:        0
+H-Bond Acceptors:     0
+TPSA:                 0.00 Å²
+Rotatable Bonds:      0
+
+Lipinski's Rule of Five: PASS
+
+Veber's Rule (oral bioavailability): PASS
+======================================================================
+
+[3/3] Determining recommended DFT method...
+
+======================================================================
+DFT CALCULATION PARAMETERS
+======================================================================
+Functional:           wB97XD
+Basis Set:            6-311G(d,p)
+Dispersion:           Explicit dispersion (D parametrization)
+ECP Used:             False
+Diffuse Functions:    False
+
+Hardware Resources:
+  Processors:         2
+  Memory/Processor:   2.0 GB
+  Total Memory:       4.0 GB
+
+Rationale:
+  Functional 'wB97XD' selected: Aromatic rings detected. This range-separated hybrid functional includes dispersion for pi-systems. Basis set '6-311G(d,p)' selected: Small organic system (6 heavy atoms). Higher-quality triple-zeta basis suitable for accurate calculations.
+======================================================================
+

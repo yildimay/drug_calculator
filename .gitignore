@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+.DS_Store
+*.egg-info/
+build/
+dist/
+
+# Generated run artifacts - regenerate with main.py, not meant to be tracked
+outputs/

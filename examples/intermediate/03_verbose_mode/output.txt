@@ -1,0 +1,81 @@
+
+======================================================================
+DFT METHOD RECOMMENDER
+======================================================================
+
+[1/3] Parsing SMILES string...
+      SMILES: CC(=O)Oc1ccccc1C(=O)O
+      IUPAC Name: 2-acetyloxybenzoic acid (via PubChem)
+
+--- Molecular Information ---
+SMILES: CC(=O)Oc1ccccc1C(=O)O
+Molecular Weight: 180.16 g/mol
+Formal Charge: 0
+Spin Multiplicity: 1
+Heavy Atoms: 13
+Total Atoms: 21
+Aromatic Rings: True
+Transition Metals: False
+Heavy Elements (Period 4+): False
+
+XYZ Coordinates:
+C        -2.960214       -2.244244       -0.037553
+C        -2.081814       -1.128840       -0.491781
+O        -2.367871       -0.504808       -1.549380
+O        -0.894768       -0.865864        0.203994
+C        -0.097679        0.280029        0.047414
+C        -0.676875        1.523731       -0.273091
+C         0.117185        2.661949       -0.413991
+C         1.495049        2.579329       -0.227227
+C         2.084246        1.359915        0.110000
+C         1.301935        0.198311        0.257785
+C         1.970698       -1.078973        0.618966
+O         1.311051       -2.146393        0.737514
+O         3.346992       -1.110601        0.831206
+H        -4.022355       -2.010400       -0.262038
+H        -2.849320       -2.390342        1.057315
+H        -2.671404       -3.179064       -0.561224
+H        -1.747762        1.623986       -0.385551
+H        -0.338608        3.612509       -0.659697
+H         2.108518        3.464523       -0.335803
+H         3.156673        1.329221        0.255674
+H         3.816322       -1.973974        1.077468
+
+[2/3] Screening drug-likeness...
+
+======================================================================
+DRUG-LIKENESS SCREENING (not a full ADMET/toxicity prediction)
+======================================================================
+Molecular Formula:    C9H8O4
+Molecular Weight:     180.16 Da
+LogP:                 1.31
+H-Bond Donors:        1
+H-Bond Acceptors:     3
+TPSA:                 63.60 Å²
+Rotatable Bonds:      2
+
+Lipinski's Rule of Five: PASS
+
+Veber's Rule (oral bioavailability): PASS
+======================================================================
+
+[3/3] Determining recommended DFT method...
+
+======================================================================
+DFT CALCULATION PARAMETERS
+======================================================================
+Functional:           wB97XD
+Basis Set:            6-31+G(d,p)
+Dispersion:           Explicit dispersion (D parametrization)
+ECP Used:             False
+Diffuse Functions:    True
+
+Hardware Resources:
+  Processors:         4
+  Memory/Processor:   2.5 GB
+  Total Memory:       10.0 GB
+
+Rationale:
+  Functional 'wB97XD' selected: Aromatic rings detected. This range-separated hybrid functional includes dispersion for pi-systems. Basis set '6-31+G(d,p)' selected: 4 electronegative atoms (O/N/F/Cl) suggest a polarizable, lone-pair-rich system. Diffuse functions added to properly describe the electron density in these cases.
+======================================================================
+

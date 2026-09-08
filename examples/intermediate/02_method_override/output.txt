@@ -1,0 +1,53 @@
+
+======================================================================
+DFT METHOD RECOMMENDER
+======================================================================
+
+[1/3] Parsing SMILES string...
+      SMILES: CC(=O)[O-]
+      IUPAC Name: acetate (via PubChem)
+✓ SMILES parsed successfully
+  Molecular Weight: 59.04 g/mol
+  Total Atoms: 7
+  Heavy Atoms: 4
+  Formal Charge: -1
+  Spin Multiplicity: 1
+
+[2/3] Screening drug-likeness...
+
+======================================================================
+DRUG-LIKENESS SCREENING (not a full ADMET/toxicity prediction)
+======================================================================
+Molecular Formula:    C2H3O2-
+Molecular Weight:     59.04 Da
+LogP:                 -1.24
+H-Bond Donors:        0
+H-Bond Acceptors:     2
+TPSA:                 40.13 Å²
+Rotatable Bonds:      0
+
+Lipinski's Rule of Five: PASS
+
+Veber's Rule (oral bioavailability): PASS
+======================================================================
+
+[3/3] Determining recommended DFT method...
+
+======================================================================
+DFT CALCULATION PARAMETERS
+======================================================================
+Functional:           M06-2X
+Basis Set:            def2-TZVP
+Dispersion:           Standard DFT
+ECP Used:             False
+Diffuse Functions:    False
+
+Hardware Resources:
+  Processors:         2
+  Memory/Processor:   2.0 GB
+  Total Memory:       4.0 GB
+
+Rationale:
+  Functional 'M06-2X' was explicitly requested, overriding the auto-selected 'B3LYP-D3'. Auto-selection reasoning: Functional 'B3LYP-D3' selected: Standard organic molecule. This is the workhorse functional for general chemistry. Basis set 'def2-TZVP' was explicitly requested, overriding the auto-selected '6-31+G(d,p)'. Auto-selection reasoning: Basis set '6-31+G(d,p)' selected: Anionic species (charge=-1). Diffuse functions added to properly describe the electron density in these cases.
+======================================================================
+

@@ -1,0 +1,11 @@
+
+======================================================================
+DFT METHOD RECOMMENDER
+======================================================================
+
+[1/3] Parsing SMILES string...
+      SMILES: N.N.Cl[Pt]Cl
+[19:44:13] UFFTYPER: Unrecognized atom type: Pt6+2 (1)
+
+✗ Error: Invalid SMILES string or parsing failed.
+  Details: Embedded geometry has overlapping/near-coincident atoms (atom 0 and atom 1, 0.000 Angstrom apart). This usually means the SMILES uses "." to separate fragments that were actually meant to be bonded (e.g. a metal complex written as unbonded ligands like "N.N.Cl[Pt]Cl" instead of "N[Pt](N)(Cl)Cl"), since RDKit's 3D embedder does not automatically separate disconnected fragments in space. Check the SMILES connectivity.

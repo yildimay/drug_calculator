@@ -1,0 +1,1 @@
+python main.py --smiles "CC(=O)[O-]" --charge -1 --functional M06-2X --basis-set def2-TZVP

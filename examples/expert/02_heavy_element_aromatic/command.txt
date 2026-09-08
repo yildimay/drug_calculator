@@ -1,0 +1,1 @@
+python main.py --smiles "Ic1cc(CC(N)C(=O)O)cc(I)c1Oc1cc(I)c(O)c(I)c1"

@@ -1,0 +1,53 @@
+
+======================================================================
+DFT METHOD RECOMMENDER
+======================================================================
+
+[1/3] Parsing SMILES string...
+      SMILES: CCO
+      IUPAC Name: ethanol (via PubChem)
+✓ SMILES parsed successfully
+  Molecular Weight: 46.07 g/mol
+  Total Atoms: 9
+  Heavy Atoms: 3
+  Formal Charge: 0
+  Spin Multiplicity: 1
+
+[2/3] Screening drug-likeness...
+
+======================================================================
+DRUG-LIKENESS SCREENING (not a full ADMET/toxicity prediction)
+======================================================================
+Molecular Formula:    C2H6O
+Molecular Weight:     46.07 Da
+LogP:                 -0.00
+H-Bond Donors:        1
+H-Bond Acceptors:     1
+TPSA:                 20.23 Å²
+Rotatable Bonds:      0
+
+Lipinski's Rule of Five: PASS
+
+Veber's Rule (oral bioavailability): PASS
+======================================================================
+
+[3/3] Determining recommended DFT method...
+
+======================================================================
+DFT CALCULATION PARAMETERS
+======================================================================
+Functional:           B3LYP-D3
+Basis Set:            6-311G(d,p)
+Dispersion:           Explicit D3 correction required
+ECP Used:             False
+Diffuse Functions:    False
+
+Hardware Resources:
+  Processors:         2
+  Memory/Processor:   2.0 GB
+  Total Memory:       4.0 GB
+
+Rationale:
+  Functional 'B3LYP-D3' selected: Standard organic molecule. This is the workhorse functional for general chemistry. Basis set '6-311G(d,p)' selected: Small organic system (3 heavy atoms). Higher-quality triple-zeta basis suitable for accurate calculations.
+======================================================================
+

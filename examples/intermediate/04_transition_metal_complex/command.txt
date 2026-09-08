@@ -1,0 +1,1 @@
+python main.py --smiles "C1CC2(C1)C(=O)O[Pt](N)(N)OC2=O"
